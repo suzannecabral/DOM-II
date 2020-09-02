@@ -149,3 +149,11 @@ navLink.forEach((item)=>{
     });
 });
 
+const destinations = document.querySelectorAll('.destination');
+destinations.forEach((item)=>{
+    item.addEventListener('click',(e)=>{
+        e.target.style.fontSize='2rem';
+        e.stopPropagation();
+
+    });
+});
