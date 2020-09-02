@@ -142,3 +142,10 @@ contextEffect.forEach((item)=>{
 window.addEventListener('visibilitychange',(e)=>{
     alert("Party's over!");
 })
+
+navLink.forEach((item)=>{
+    item.addEventListener('click',(e)=>{
+        e.preventDefault();
+    });
+});
+
